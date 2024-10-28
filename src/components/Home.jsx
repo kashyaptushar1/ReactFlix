@@ -5,6 +5,7 @@ import Topnav from "./partials/Topnav"
 import axios from '../utils/axios'
 import HorizontalCards from "./partials/HorizontalCards"
 import Dropdown from "./partials/Dropdown"
+import Loading from "./Loading"
 
 
 function Home() {
@@ -54,7 +55,7 @@ function Home() {
                 <HorizontalCards data={trending}  />
             </div>
         </>
-    ):<h1>Loading...</h1>
+    ):<Loading/>
 }
 
 export default Home;

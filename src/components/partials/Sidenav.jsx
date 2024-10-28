@@ -15,7 +15,7 @@ function Sidenav() {
         </h1>
        <nav className='flex flex-col text-zinc-400' >
        <h1 className='text-white font-semibold text-xl mt-4 mb-3 ' >New Feeds</h1>
-      <Link className='hover:bg-[#6556CD] hover:text-white duration-300 rounded-lg p-5 text-xl' > <i className="ri-fire-fill"></i> Trending</Link>
+      <Link to="/trending" className='hover:bg-[#6556CD] hover:text-white duration-300 rounded-lg p-5 text-xl' > <i className="ri-fire-fill"></i> Trending</Link>
       <Link className='hover:bg-[#6556CD] hover:text-white duration-300 rounded-lg p-5 text-xl' > <i className="ri-bard-fill"></i> Popular</Link>
       <Link className='hover:bg-[#6556CD] hover:text-white duration-300 rounded-lg p-5 text-xl' ><i className="ri-movie-2-fill"></i> Movies</Link>
       <Link className='hover:bg-[#6556CD] hover:text-white duration-300 rounded-lg p-5 text-xl' > <i className="ri-tv-2-fill"></i> TV Shows</Link>
