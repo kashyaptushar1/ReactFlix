@@ -10,6 +10,7 @@ import InfiniteScroll from "react-infinite-scroll-component"
 
 
 function Trending() {
+    
 const navigate = useNavigate()
  const [category , setcategory] =  useState("all")
  const [duration , setduration] =  useState("day")
@@ -17,6 +18,7 @@ const navigate = useNavigate()
  const [page , setpage] = useState(1)
  const [hasMore , sethasMore] =   useState(true)
 
+ document.title = "ReactFlix | Trending -" +category.toLocaleUpperCase();
 
  const GetTrending = async () => {
     try {
@@ -51,11 +53,11 @@ useEffect(()=>{
     <div className=' w-screen h-screen  ' >
         <div className='px-[5%] w-full flex items-center justify-between ' >
         <h1 className='text-2xl font-semibold text-zinc-400 ' >
-        <i onClick={()=>navigate(-1)} className=" hover:text-[#6556CD] ri-arrow-left-line"></i>
+        <i onClick={()=>navigate(-1)} className=" hover:text-[#6556CD] mr-[10%] ri-arrow-left-line"></i>
             Trending
         </h1>
-       <div className='flex items-center w-[80%] ' >
-       <Topnav/>
+       <div className='flex items-center w-[80%]  ' >
+       <Topnav  />
         <Dropdown title="Category" options={["movie","tv","all"]} func={(e)=> setcategory(e.target.value)} />
         <div className='w-[3%]' ></div>
         <Dropdown title="Duration" options={["week","day"]} func={(e)=> setduration(e.target.value)} />
