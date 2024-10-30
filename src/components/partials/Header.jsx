@@ -20,7 +20,7 @@ function Header({ data }) {
             className='w-full h-[50vh] flex flex-col justify-end items-start p-[4%] '
         >
           <h1 className='w-[70%] text-5xl font-black text-white' >{data.name || data.title || data.original_name || data.original_title}</h1>
-          <p className='w-[70%] text-white mb-3 mt-3 ' >{data.overview.slice(0,200)}...<Link className='text-blue-400' >More</Link></p>
+          <p className='w-[70%] text-white mb-3 mt-3 ' >{data.overview.slice(0,200)}...<Link to={`/${data.media_type}/details/${data.id}`} className='text-blue-400' >More</Link></p>
           <p className='text-white mb-3 ' >
           <i className="ri-megaphone-fill text-yellow-500 "></i>{data.release_date || "No info"}
           <i className="ri-album-fill text-yellow-500 ml-5 "></i>{data.media_type.toUpperCase()}
