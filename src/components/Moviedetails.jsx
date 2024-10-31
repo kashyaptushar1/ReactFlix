@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { asyncloadmovie, removemovie } from '../store/actions/movieActions'
-import { useParams, useNavigate, Link, useLocation } from 'react-router-dom'
+import { useParams, useNavigate, Link, useLocation, Outlet } from 'react-router-dom'
 import Loading from './Loading'
 import HorizontalCards from "./partials/HorizontalCards"
 
@@ -33,7 +33,7 @@ function Moviedetails() {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
-      className="w-screen h-[165vh] px-[10%]"
+      className=" relative w-screen h-[165vh] px-[10%]"
     >
       {/* Part 1: Navigation */}
       <nav className="w-full h-[10vh] flex items-center gap-10 text-zinc-200 text-xl">
@@ -116,6 +116,7 @@ function Moviedetails() {
       <hr className='mt-10 mb-5 border-none h-[1px] bg-zinc-500 ' />
       <h1 className='text-3xl font-bold text-white  mb-3' >Recommendation and Similar stuff: </h1>
       <HorizontalCards data={info.recommendations || info.similar || []} />
+      <Outlet />
     </div>
   ) : (
     <Loading />

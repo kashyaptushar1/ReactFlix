@@ -11,7 +11,7 @@ function Sidenav() {
     <div className="w-[20%] h-full border-zinc-400 border-r-2 p-3 " >
         <h1 className='text-4xl text-white font-bold' >
             <i className='ri-tv-fill text-[#6556CD] mr-2'></i>
-           <span className='text-2xl' ><span className='text-[#6556CD]' >R</span>eactFlix</span>
+           <span className='text-2xl' >ReactFlix</span>
         </h1>
        <nav className='flex flex-col text-zinc-400' >
        <h1 className='text-white font-semibold text-xl mt-4 mb-3 ' >New Feeds</h1>
