@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function HorizontalCards({ data }) {
   return (
     <div to="" className="w-[100%] flex overflow-y-hidden mb-3 ">
-      {data.map((d, i) => (
+      {data.length > 0 ? data.map((d, i) => (
         <Link to={`/${d.media_type}/details/${d.id}`}
           key={i}
           className="min-w-[15%]  ml-5 mb-5 bg-zinc-900 overflow-auto"
@@ -27,7 +27,7 @@ function HorizontalCards({ data }) {
             </p>
           </div>
         </Link>
-      ))}
+      )):<h1 className="text-3xl text-white font-black text-center mt-5 " >Nothing to show</h1>}
     </div>
   );
 }
