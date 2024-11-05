@@ -26,7 +26,7 @@ function Sidenav() {
        <nav className='flex flex-col text-zinc-400' >
       
        <h1 className='text-white font-semibold text-2xl mt-3 ' >Website Information</h1>
-      <Link className='hover:bg-[#6556CD] hover:text-white duration-300 rounded-lg p-5 text-xl' > <i className="ri-information-fill"></i> About ReactFlix</Link>
+      <Link to="/about" className='hover:bg-[#6556CD] hover:text-white duration-300 rounded-lg p-5 text-xl' > <i className="ri-information-fill"></i> About </Link>
       <Link className='hover:bg-[#6556CD] hover:text-white duration-300 rounded-lg p-5 text-xl' ><i className="ri-phone-fill"></i> Contant US</Link>
       
        </nav>

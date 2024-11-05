@@ -10,6 +10,7 @@ import TvDetails from "./components/TvDetails"
 import PersonDetails from "./components/PersonDetails"
 import Trailer from "./components/partials/Trailer"
 import NotFound from "./components/Notfound"
+import About from "./components/About"
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/trending" element={<Trending/>} />
         <Route path="/popular" element={<Popular/>} />
+        <Route path="/about" element={<About/>} />
 
         <Route path="/movie" element={<Movie/>} />
        

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import  { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { asyncloadtv, removetv } from '../store/actions/tvActions'
 import { useParams, useNavigate, Link, useLocation, Outlet } from 'react-router-dom'
@@ -121,6 +121,7 @@ function TvDetails() {
           <h1 className="text-2xl text-zinc-300 mt-3 font-semibold">
             {s.name || s.title || s.original_name || s.original_title}
           </h1>
+         
         </div>
       </Link>
     ))}

@@ -25,7 +25,7 @@ function Header({ data }) {
           <i className="ri-megaphone-fill text-yellow-500 "></i>{data.release_date || "No info"}
           <i className="ri-album-fill text-yellow-500 ml-5 "></i>{data.media_type.toUpperCase()}
           </p>
-          <Link className='bg-[#6556CD] p-2 rounded text-white font-semibold ' >Watch trailer</Link>
+          <Link to={`/${data.media_type}/details/${data.id}/trailer`} className='bg-[#6556CD] p-2 rounded text-white font-semibold ' >Watch trailer</Link>
         </div>
     );
 }
