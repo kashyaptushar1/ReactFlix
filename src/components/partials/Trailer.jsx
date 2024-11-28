@@ -16,7 +16,7 @@ function Trailer() {
         <div  className='bg-[rgba(0,0,0,.9)] absolute top-0 left-0 z-[100] h-screen w-screen flex justify-center items-center'>
             <Link 
                 onClick={() => navigate(-1)} 
-                className='absolute hover:text-[#6556CD] ri-close-fill text-3xl text-white right-[5%] top-[5%]'>
+                className='absolute ri-close-fill text-3xl text-black right-[5%] top-[5%]'>
             </Link>
             
           {ytvideo?  <ReactPlayer 

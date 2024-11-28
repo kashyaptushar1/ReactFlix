@@ -22,6 +22,6 @@ export const personSlice = createSlice({
   );
   
   // Action creators are generated for each case reducer function
-  export const {loadmovie , removemovie } = personSlice.actions
+  export const {loadperson , removeperson } = personSlice.actions
   
   export default personSlice.reducer
