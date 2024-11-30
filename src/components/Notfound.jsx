@@ -1,4 +1,4 @@
-import Notfound from "/NotFound.gif";
+import Notfound from "/NotFound.jpeg";
 
 function NotFound() {
   return (

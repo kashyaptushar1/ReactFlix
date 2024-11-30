@@ -1,4 +1,4 @@
-import React from 'react';
+
 import ReactPlayer from 'react-player';
 import { useSelector } from 'react-redux';
 import { Link, useLocation, useNavigate } from 'react-router-dom';

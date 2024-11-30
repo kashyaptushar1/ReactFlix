@@ -14,7 +14,7 @@ function Sidenav() {
            <span className='text-2xl' >ReactFlix</span>
         </h1>
        <nav className='flex flex-col text-zinc-400' >
-       <h1 className='text-white font-semibold text-xl mt-4 mb-3 ' >New Feeds</h1>
+       <h1 className='text-white font-semibold text-xl mt-4 mb-3 ' ></h1>
       <Link to="/trending" className='hover:bg-[#6556CD] hover:text-white duration-300 rounded-lg p-5 text-xl' > <i className="ri-fire-fill"></i> Trending</Link>
       <Link to="/popular" className='hover:bg-[#6556CD] hover:text-white duration-300 rounded-lg p-5 text-xl' > <i className="ri-bard-fill"></i> Popular</Link>
       <Link to="/movie" className='hover:bg-[#6556CD] hover:text-white duration-300 rounded-lg p-5 text-xl' ><i className="ri-movie-2-fill"></i> Movies</Link>
@@ -25,7 +25,7 @@ function Sidenav() {
        <hr className='border-none h-[1px] bg-zinc-400'/>
        <nav className='flex flex-col text-zinc-400' >
       
-       <h1 className='text-white font-semibold text-2xl mt-3 ' >Website Information</h1>
+       <h1 className='text-white font-semibold text-2xl mt-3 ' >Information</h1>
       <Link to="/about" className='hover:bg-[#6556CD] hover:text-white duration-300 rounded-lg p-5 text-xl' > <i className="ri-information-fill"></i> About </Link>
       <Link className='hover:bg-[#6556CD] hover:text-white duration-300 rounded-lg p-5 text-xl' ><i className="ri-phone-fill"></i> Contant US</Link>
       
