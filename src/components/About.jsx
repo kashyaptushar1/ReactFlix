@@ -70,9 +70,9 @@ function About() {
         more with detailed information on available platforms and providers.
         Developed by a team of passionate developers, ReactFlix aims to provide
         an intuitive interface for movie lovers everywhere. This project was
-        created by Tushar Kashyap, the full-stack developer and project lead,
+        created by Tushar Kashyap and Vedika Sharma, the full-stack developer and project lead,
         along with Aman Choudhary, the front-end developer, and Nishant Kumar,
-        the back-end developer, who all worked together to bring this vision to
+        the figma designer, who all worked together to bring this vision to
         life.
       </p>
     </div>
