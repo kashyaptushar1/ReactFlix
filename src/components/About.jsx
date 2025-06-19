@@ -19,7 +19,6 @@ function About() {
         "Tushar Kashyap",
         "Java Developer",
         "Full Stack Developer",
-        "Leetcoder Rankholder",
       ],
       loop: true,
       typeSpeed: 100,
@@ -64,16 +63,9 @@ function About() {
       </h1>
 
       <p className="text-white w-[40%] ml-[4%] text-[1.6vw]">
-        ReactFlix is a movie streaming website built with React.js, designed
-        to bring a seamless and user-friendly movie-watching experience. The
-        platform allows users to explore movies, TV shows, trailers, and much
-        more with detailed information on available platforms and providers.
-        Developed by a team of passionate developers, ReactFlix aims to provide
-        an intuitive interface for movie lovers everywhere. This project was
-        created by Tushar Kashyap and Vedika Sharma, the full-stack developer and project lead,
-        along with Aman Choudhary, the front-end developer, and Nishant Kumar,
-        the figma designer, who all worked together to bring this vision to
-        life.
+        👋 Hi, I'm Tushar Kashyap, a 19-year-old full-stack web developer currently pursuing a Bachelor of Science (Honours) in Computer Science from Jaypee University, Anoopshahr. I'm passionate about building modern, responsive web applications and have hands-on experience with technologies like React, Node.js, Express, MongoDB, and more.
+
+I’ve worked with startups on real-world projects and love turning ideas into functional web platforms. I completed my schooling from L.D.A.V Inter College, Anoopshahr, and I’m constantly exploring new tech and tools to sharpen my development skills.
       </p>
     </div>
   );
